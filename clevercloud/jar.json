@@ -1,6 +1,6 @@
 {
   "build": {
-    "type": "maven",
+    "type": "gradle",
     "goal": "build"
   },
   "deploy": {
