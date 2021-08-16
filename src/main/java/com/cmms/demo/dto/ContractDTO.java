@@ -39,7 +39,7 @@ public class ContractDTO {
         type.setType_id(item.getType().getType_id());
         type.setType_name(item.getType().getType_name());
         dto.setType(type);
-        dto.setFolder_id(item.getFolder_id());
+        //dto.setFolder_id(item.getFolder_id());
         dto.setContent(item.getContent());
         dto.setStart_date(item.getProject().getExpected_starting_date().toString());
         dto.setEnd_date(item.getProject().getExpected_end_date().toString());
