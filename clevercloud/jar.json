@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "gradle",
+    "goal": "build"
+  },
+  "deploy": {
+    "goal": "build/libs/gs-spring-boot-0.1.0.jar"
+  }
+}
